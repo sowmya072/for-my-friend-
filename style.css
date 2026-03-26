@@ -1,0 +1,102 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Header */
+  header {
+    background-color: #ff66a3;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #ff99cc;
+    padding: 10px;
+  }
+  
+  nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #660033;
+  }
+  
+  /* Main */
+  main {
+    padding: 20px;
+  }
+  
+  /* Section */
+  section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    width: 70%;
+    box-shadow: 0 0 20px rgba(255, 102, 163, 0.4);
+    transition: 0.3s;
+  }
+  
+  section:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ff66a3;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Inputs */
+  input, textarea {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 60%;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #cc0066;
+    transform: scale(1.1);
+  }
+  
+  /* YES button */
+  #yes {
+    background-color: #ff0066;
+    font-size: 18px;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    color: #cc0066;
+  }
